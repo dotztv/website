@@ -1,0 +1,9 @@
+body {
+    background-color: grey;
+}
+
+.test {
+    text-align: center;
+    color: aqua;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
