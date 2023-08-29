@@ -1,9 +1,17 @@
 body {
-    color: grey;
+    background-color:crimson;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
 }
 
-.test {
+.center-text {
+    color: white;
+    font-family: monospace;
+    display: inline-block;
+}
+
+.center-container {
     text-align: center;
-    color: aqua;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
