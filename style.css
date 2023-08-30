@@ -1,7 +1,8 @@
 body {
-    background-color:crimson;
+    background-color: crimson;
     margin: 0;
     display: grid;
+    grid-template-rows: auto 1fr;
     place-items: center;
     min-height: 100vh;
 }
@@ -14,4 +15,38 @@ body {
 
 .center-container {
     text-align: center;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.bottom {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.about-me, .discord, .projects, .return {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: crimson;
+}
+
+a.link:active, a.link:link {
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+}
+
+a.link:hover {
+    text-decoration: dotted;
+    color: white;
+}
+
+.link {
+    color: white;
 }
