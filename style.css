@@ -13,6 +13,12 @@ body {
     display: inline-block;
 }
 
+.under-center-text {
+    color: white;
+    font-family: monospace;
+    
+}
+
 .center-container {
     text-align: center;
 }
