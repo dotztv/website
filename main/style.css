@@ -1,12 +1,46 @@
 body {
     background-color: #262626;
+    margin: 0;
 }
 
-p {
+p, a {
     color: white;
     font-family: "JetBrains Mono", monospace;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: lightgreen;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    alignment-baseline: central;
+    height: 25px;
+    border-bottom: 1px solid white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    gap: 10px;
+}
+
+.no-margin {
+    margin: 0;
 }
