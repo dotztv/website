@@ -23,6 +23,7 @@ a:hover {
 }
 
 nav {
+    position: fixed;
     display: flex;
     width: 100%;
     justify-content: space-evenly;
