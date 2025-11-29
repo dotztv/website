@@ -27,19 +27,16 @@ nav {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
-    alignment-baseline: central;
+    align-items: center;
     height: 25px;
     border-bottom: 1px solid white;
+    z-index: 100;
+    background-color: #262626;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 100vh;
-    gap: 10px;
+nav a { 
+    line-height: 25px; 
+    padding: 0 6px; 
 }
 
 .no-margin {
