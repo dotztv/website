@@ -1,0 +1,32 @@
+p, a {
+    text-align: center;
+
+}
+
+.chart-link {
+    border: 1px solid white;
+    padding: 5px;
+}
+
+li {
+    margin: 5px;
+}
+
+.charts-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.seperator {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.seperator p {
+    width: 80%;
+    border-top: 1px solid white;
+}

@@ -13,26 +13,6 @@ main {
     gap: 10px;
 }
 
-footer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    background-color: #262626;
-    border-top: 1px solid white;
-    height: 25px;
-    box-sizing: border-box;
-    z-index: 90;
-}
-
-footer p {
-    margin: 0;
-}
-
 aside {
     position: fixed;
     right: 0;
